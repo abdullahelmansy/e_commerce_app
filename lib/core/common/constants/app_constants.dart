@@ -31,7 +31,7 @@ class AppConstants {
   static double largePadding = 24.0;
 
   //Border radius
-  static double defaultBorderRadius = 26.0;
+  static const double defaultBorderRadius = 26.0;
   static double smallBorderRadius = 8.0;
   static double largeBorderRadius = 16.0;
 
