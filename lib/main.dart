@@ -1,4 +1,5 @@
 import 'package:e_commerce_app/features/auth/presentation/screens/auth_screen.dart';
+import 'package:e_commerce_app/main_screen.dart';
 import 'package:e_commerce_app/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SplashScreen(),
+      home: MainScreen(),
     );
   }
 }

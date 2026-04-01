@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'features/auth/presentation/screens/auth_screen.dart';
 import 'features/auth/presentation/screens/onboarding_screen.dart';
-import 'features/home/presentation/screens/main_screen.dart';
+import 'main_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});

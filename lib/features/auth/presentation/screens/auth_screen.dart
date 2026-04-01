@@ -4,7 +4,7 @@ import 'package:e_commerce_app/features/auth/presentation/widgets/auth_button.da
 import 'package:e_commerce_app/features/auth/presentation/widgets/auth_divider.dart';
 import 'package:e_commerce_app/features/auth/presentation/widgets/auth_text_feild.dart';
 import 'package:e_commerce_app/features/auth/presentation/widgets/reusable_outlined_botton.dart';
-import 'package:e_commerce_app/features/home/presentation/screens/main_screen.dart';
+import 'package:e_commerce_app/main_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
