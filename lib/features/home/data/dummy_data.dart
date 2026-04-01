@@ -1,0 +1,68 @@
+import 'package:e_commerce_app/features/home/domain/entities/product.dart';
+
+final List<Product> dummyData = [
+  Product(
+    id: '4',
+    name: 'Hoodie',
+    category: 'Clothes',
+    price: 120.00,
+    description: 'Cool hoodie for cool people.',
+    imageUrl: 'assets/images/hoodie.png',
+    images: [
+      'assets/images/hoodie.png',
+      'assets/images/hoodie_2.png',
+      'assets/images/hoodie_3.png',
+    ],
+    colors: ['#FF5733', '#33CFFF', '#FFC300'],
+    isFavorite: false,
+    specialOfferIds: ['order1'],
+  ),
+  Product(
+    id: '1',
+    name: 'Jordan Shoes',
+    category: 'Shoes',
+    price: 200.00,
+    description: 'Cool shoes for cool people.',
+    imageUrl: 'assets/images/jordan.png',
+    images: [
+      'assets/images/jordan.png',
+      'assets/images/jordan_2.png',
+      'assets/images/jordan_3.png',
+    ],
+    colors: ['#A0522D', '#CD853F', '#D2B48C'],
+    isFavorite: false,
+    specialOfferIds: ['order3'],
+  ),
+  Product(
+    id: '2',
+    name: 'Stylish Sofa',
+    category: 'Sofas',
+    price: 350.00,
+    description: 'A stylish sofa that adds a touch of elegance to your home.',
+    imageUrl: 'assets/images/5.png',
+    images: [
+      'assets/images/5.png',
+      'assets/images/4.png',
+      'assets/images/3.png',
+    ],
+    colors: ['#8E44AD', '#3498DB', '#2ECC71'],
+    isFavorite: false,
+    specialOfferIds: ['order2'],
+  ),
+  Product(
+    id: '3',
+    name: 'Adidas Shoes',
+    category: 'Shoes',
+    price: 500.00,
+    description: 'A sporty shoe for sporty people.',
+    imageUrl: 'assets/images/adidas_shoe.png',
+    images: [
+      'assets/images/adidas_shoe.png',
+      'assets/images/adidas_shoe.png',
+      'assets/images/adidas_shoe.png',
+    ],
+    colors: ['#1ABC9C', '#F1C40F', '#E67E22'],
+    isFavorite: false,
+    specialOfferIds: ['order4'],
+  ),
+];
