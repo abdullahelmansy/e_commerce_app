@@ -19,7 +19,7 @@ class CustomCardItem extends StatelessWidget {
       onTap: onTap,
       child: Container(
         width: cardWidth,
-        height: imageSize + contentHeight,
+        height: imageSize + contentHeight ,
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.circular(AppConstants.defaultBorderRadius),
